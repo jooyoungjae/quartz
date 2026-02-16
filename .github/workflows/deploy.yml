@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm' # 캐시를 써서 속도를 높임
       - name: Install Dependencies
         run: npm install # ci 대신 install을 써서 유연하게 대응
