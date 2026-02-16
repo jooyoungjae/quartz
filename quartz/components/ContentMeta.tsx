@@ -29,11 +29,35 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
+      // -------------------------------------------------------------------
+      // [수정된 부분] 작성일과 수정일을 분리해서 표시하는 로직
+      // -------------------------------------------------------------------
       if (fileData.dates) {
-        segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
-      }
+        const created = fileData.dates.created
+        const modified = fileData.dates.modified
 
-      // Display reading time if enabled
+        // 1. 최초 작성일 (항상 표시)
+        if (created) {
+          segments.push(
+            <span>
+              최초 작성일: <Date date={created} locale={cfg.locale} />
+            </span>
+          )
+        }
+
+        // 2. 마지막 수정일 (작성일과 다르면 표시)
+        // 주의: 파일의 date와 updated 시간이 완전히 똑같으면 이 부분은 안 보임!
+        if (modified && created && modified.getTime() !== created.getTime()) {
+           segments.push(
+            <span>
+              마지막 수정일: <Date date={modified} locale={cfg.locale} />
+            </span>
+          )
+        }
+      }
+      // -------------------------------------------------------------------
+
+      // 읽는 시간 (설정에서 켜져있으면 표시됨)
       if (options.showReadingTime) {
         const { minutes, words: _words } = readingTime(text)
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
