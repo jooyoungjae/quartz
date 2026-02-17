@@ -1,6 +1,7 @@
 ---
 title: Welcome to Jooyoung's Math Garden
-updated: 2026-02-17 20:27
+date: 2026-02-16 17:59
+updated: 2026-02-17 21:37
 ---
 
 # 환영합니다. 장주영의 수학 정원입니다.
