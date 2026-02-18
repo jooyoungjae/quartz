@@ -6,7 +6,7 @@ import { GlobalConfiguration } from "../cfg"
 
 export type SortFn = (f1: QuartzPluginData, f2: QuartzPluginData) => number
 
-export function byDateAndAlphabetical(cfg: GlobalConfiguration): SortFn {
+/*export function byDateAndAlphabetical(cfg: GlobalConfiguration): SortFn {
   return (f1, f2) => {
     // Sort by date/alphabetical
     if (f1.dates && f2.dates) {
@@ -23,6 +23,20 @@ export function byDateAndAlphabetical(cfg: GlobalConfiguration): SortFn {
     const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
     const f2Title = f2.frontmatter?.title.toLowerCase() ?? ""
     return f1Title.localeCompare(f2Title)
+  }
+}
+*/
+export function byDateAndAlphabetical(cfg: GlobalConfiguration): SortFn {
+  return (f1, f2) => {
+    // 1. 파일 제목 가져오기 (없으면 파일 이름으로)
+    const title1 = String(f1.frontmatter?.title ?? f1.name ?? "")
+    const title2 = String(f2.frontmatter?.title ?? f2.name ?? "")
+
+    // 2. 오직 제목으로만 비교! (숫자 똑똑하게 인식함)
+    return title1.localeCompare(title2, undefined, {
+      numeric: true,      // "10"을 "2"보다 뒤로 보내는 옵션 (이거 필수!)
+      sensitivity: "base",
+    })
   }
 }
 

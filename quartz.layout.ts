@@ -5,7 +5,17 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.RecentNotes({
+        title: "최근에 바뀐 문서들",
+        limit: 5,
+        filter: (f) => !f.slug!.startsWith("tags/"),
+      }),
+      // "이 페이지가 index(대문)일 때만 보여줘!"라는 조건
+      condition: (page) => page.fileData.slug === "index", 
+    }),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",

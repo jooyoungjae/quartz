@@ -7,7 +7,7 @@ aliases:
 tags:
   - 해석학
 date: 2026-02-17 17:26
-updated: 2026-02-17 20:03
+updated: 2026-02-18 19:54
 draft: false
 ---
 
@@ -22,10 +22,8 @@ draft: false
 > - (첫 번째 방법): 임의의 $A$의 상계 $b$에 대하여 $\text{sup }A \leq b$이다.
 > - (두 번째 방법): 임의의 $\epsilon>0$에 대하여 $\text{sup }A-\epsilon<a$를 만족하는 원소 $a\in A$가 존재한다.  
 > $$
-> \begin{align}
 > (\forall b\text{는 } A\text{의 상계})\  \text{sup }A \leq b 
 > \iff  (\forall \epsilon >0), (\exists a \in A)\  \text{sup }A-\epsilon<a
-> \end{align}
 > $$
 
 ## 증명 (Proof)
@@ -50,10 +48,8 @@ draft: false
 > 
 > **결론($\therefore$)**
 > $$
-> \begin{align}
 > (\forall b\text{는 } A\text{의 상계})\  \text{sup }A \leq b 
 > \iff  (\forall \epsilon >0), (\exists a \in A)\  \text{sup }A-\epsilon<a
-> \end{align}
 > $$
 
 
@@ -67,6 +63,6 @@ draft: false
 
 ---
 
-##### 참고문헌
+## 참고문헌
 - 교재명 : 스티븐 애벗. 『해석학 첫걸음』.(한빛수학교재연구소).
 - 페이지 : p.37

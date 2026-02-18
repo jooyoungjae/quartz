@@ -7,7 +7,7 @@ aliases:
 tags:
   - 해석학
 date: 2026-02-17 19:22
-updated: 2026-02-17 21:31
+updated: 2026-02-18 19:54
 draft: false
 ---
 
@@ -16,12 +16,12 @@ draft: false
 ## 정리 (Theorem)
 
 > [!NOTE] AN-0102 축소구간 성질 (Nested Interval Property)
-> **닫힌 구간열 $I_{n}=[a_{n}, b_{n}]=\{ x\in \mathbb{R}|a_{n}\leq x\leq b_{n} \}$을 생각하자(단, $n\in \mathbb{N}$). 모든 자연수 n에 대하여 $I_{n}\supseteq I_{n+1}$일 때^[$I_{1}\supseteq I_{2}\supseteq I_{3}\supseteq I_{4}\supseteq \cdots$] 다음이 성립한다.**
+> **닫힌 구간열 $I_{n}=[a_{n}, b_{n}]=\{ x\in \mathbb{R}|a_{n}\leq x\leq b_{n} \}$을 생각하자(단, $n\in \mathbb{N}$). 모든 자연수 n에 대하여 $I_{n}\supseteq I_{n+1}$일 때[^1] 다음이 성립한다.**
 > 
 > $$
 > \bigcap_{n=1}^{\infty}I_{n}\neq \varnothing
 > $$
-
+[^1]: $I_{1}\supseteq I_{2}\supseteq I_{3}\supseteq I_{4}\supseteq \cdots$
 ## 증명 (Proof)
 
 > [!abstract] Proof
@@ -46,10 +46,10 @@ draft: false
 
 ## 코멘트
 
-- 축소구간 성질이 성립하기 위해서는 구간이 닫힌 구간이어야 한다. 열린 구간에 대해서는 일반적으로 성립하지는 않는다. 예시: $I_n = (0, \frac{1}{n})$)
+- 축소구간 성질이 성립하기 위해서는 구간이 닫힌 구간이어야 한다. 열린 구간에 대해서는 일반적으로 성립하지는 않는다. 예시: $I_n = (0, \frac{1}{n})$
 
 ---
 
-##### 참고문헌
+## 참고문헌
 - 교재명 : 스티븐 애벗. 『해석학 첫걸음』.(한빛수학교재연구소).
 - 페이지 : p.40
