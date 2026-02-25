@@ -7,7 +7,7 @@ aliases:
 tags:
   - 해석학
 date: 2026-02-18 12:29
-updated: 2026-02-18 20:29
+updated: 2026-02-25 18:23
 draft: false
 ---
 
@@ -50,7 +50,7 @@ draft: false
 ### 따름정리 1
 
 > [!NOTE] AN-0104-C1 아르키메데스 성질의 따름정리 1 (Corollary 1)
-> **임의의 실수 $\epsilon>0$에 대하여 $\frac{1}{n}<\epsilon$ 를 만족하는 $n\in \mathbb{N}$이 존재한다. **
+> **임의의 실수 $\epsilon>0$에 대하여 $\frac{1}{n}<\epsilon$ 를 만족하는 $n\in \mathbb{N}$이 존재한다.**
 >
 > $$
 > (\forall \epsilon > 0),\  (\exists n \in \mathbb{N}) \  \frac{1}{n} < \epsilon
@@ -78,9 +78,9 @@ draft: false
 ### 따름정리 2의 증명
 
 > [!abstract] Proof of Corollary 2
-> 1. $A = \{ a\in \mathbb{Z}\ |\ a> x \}$라 하자.
-> 2. 아르키메데스 성질에 의하여 $A$는 공집합이 아니다.
-> 3. $A$는 $\mathbb{Z}$의 공집합이 아닌 $\mathbb{Z}$의 부분집합이고, 아래로 유계이므로 최솟값을 갖는다. 그 값을 m이라 하자.
+> 1. $A_{x} = \{ a\in \mathbb{Z}\ |\ a> x \}$라 하자.
+> 2. 아르키메데스 성질에 의하여 $A_{x}$는 공집합이 아니다.
+> 3. $A_{x}$는 $\mathbb{Z}$의 공집합이 아닌 $\mathbb{Z}$의 부분집합이고, 아래로 유계이므로 최솟값을 갖는다. 그 값을 m이라 하자.
 > 4. $m-1<m$이므로 $m-1\notin A\iff m-1\leq x$이다.
 > 5. 한편 $m\in A$이므로 $x<m$이다. 두 부등식을 합치면 $m-1\leq x<m$이다.
 > 6. 따라서 따름정리 2가 성립한다.
