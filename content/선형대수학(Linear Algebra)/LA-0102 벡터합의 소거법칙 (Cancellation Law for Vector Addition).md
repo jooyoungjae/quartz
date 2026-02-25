@@ -7,7 +7,7 @@ aliases:
 tags:
   - 선형대수학
 date: 2026-02-25 17:24
-updated: 2026-02-25 19:10
+updated: 2026-02-25 19:20
 draft: false
 ---
 
@@ -16,7 +16,7 @@ draft: false
 ## 정리 (Theorem)
 
 > [!NOTE] LA-0102 벡터합의 소거법칙 (Cancellation Law for Vector Addition)
-> **벡터공간 $\mathbb{V}$의 세 벡터 $x,y, z$에 대하여, $x+z=y+z$이면 $x=y$이다.**
+> **[[LA-0101 벡터공간 (Vector Space)|벡터공간]] $\mathbb{V}$의 세 벡터 $x,y, z$에 대하여, $x+z=y+z$이면 $x=y$이다.**
 > 
 > $$
 > (\forall x, y, z \in \mathbb{V})\ x+z=y+z \to x=y
@@ -28,7 +28,7 @@ draft: false
 >
 > **전제**
 > - (*) : $x+z=y+z$
-> - [[LA-0101 벡터 공간 (Vector Space)|벡터 공간]]의 조건 (2), (3), (4) 를 이용하자.
+> - [[LA-0101 벡터공간 (Vector Space)|벡터공간]]의 조건 (2), (3), (4) 를 이용하자.
 > 
 > **전개**
 >   1. 벡터공간의 조건 (4)에 의해 $z+v=\mathbf{0}$인 역벡터 $v \in \mathbb{V}$가 존재한다.
@@ -73,12 +73,12 @@ draft: false
 ### 따름정리 2
 
 > [!NOTE] LA-0102-C2 벡터합의 소거법칙의 따름정리 2 (Corollary 2)
-> **벡터공간의 조건 (4)를 만족하는 벡터 $y$는 유일하다.**
+> **[[LA-0101 벡터공간 (Vector Space)|벡터공간]]의 조건 (4)를 만족하는 벡터 $y$는 유일하다.**
 
 ### 따름정리 2의 증명
 
 > [!abstract] Proof of Corollary 2
-> 1. 벡터공간의 조건 (4)를 만족하는 벡터 $y$가 유일하지 않다고 가정하자.
+> 1. [[LA-0101 벡터공간 (Vector Space)|벡터공간]]의 조건 (4)를 만족하는 벡터 $y$가 유일하지 않다고 가정하자.
 > 2. $y_{1}\neq y_{2}$인 어떤 두 벡터가 임의의 벡터 $x$에 대하여 $x+y_{1}=\mathbf{0}$, $x+y_{2}=\mathbf{0}$을 만족한다.
 > 3. 소거법칙에 의하여 $y_{1}=y_{2}$이고 가정에 의해 $y_{1}\neq y_{2}$이므로 모순이다.
 > 
