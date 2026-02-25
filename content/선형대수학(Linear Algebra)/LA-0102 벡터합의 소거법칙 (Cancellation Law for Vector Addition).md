@@ -7,7 +7,7 @@ aliases:
 tags:
   - 선형대수학
 date: 2026-02-25 17:24
-updated: 2026-02-25 19:03
+updated: 2026-02-25 19:10
 draft: false
 ---
 
@@ -16,7 +16,7 @@ draft: false
 ## 정리 (Theorem)
 
 > [!NOTE] LA-0102 벡터합의 소거법칙 (Cancellation Law for Vector Addition)
-> **벡터공간 $\mathbb{V}$의 세 벡터 $x,y, z$에 대하여, $x+z=y+z$이면 $x=y$이다. **
+> **벡터공간 $\mathbb{V}$의 세 벡터 $x,y, z$에 대하여, $x+z=y+z$이면 $x=y$이다.**
 > 
 > $$
 > (\forall x, y, z \in \mathbb{V})\ x+z=y+z \to x=y
@@ -88,6 +88,8 @@ draft: false
 ---
 
 ## 코멘트
+
+
 - 따름 정리 1의 직접 증명 방법 : $\mathbf{0}_1 = \mathbf{0}_1 + \mathbf{0}_2 = \mathbf{0}_2$
 - 따름 정리 2의 직접 증명 방법 : $y_1 = y_1 + \mathbf{0} = y_1 + (x + y_2) = (y_1 + x) + y_2 = \mathbf{0} + y_2 = y_2$
 
@@ -95,5 +97,7 @@ draft: false
 ---
 
 ## 참고문헌
+
+
 - 교재명 : 스티븐 H. 프리드버그, 아놀드 J. 인셀, 로렌스 E. 스펜스.『프리드버그 선형대수학』(한빛수학교재연구소).
 - 페이지 : p.26
