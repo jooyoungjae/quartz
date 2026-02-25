@@ -7,7 +7,7 @@ aliases:
 tags:
   - 선형대수학
 date: 2026-02-25 17:24
-updated: 2026-02-25 18:21
+updated: 2026-02-25 19:03
 draft: false
 ---
 
@@ -33,7 +33,11 @@ draft: false
 > **전개**
 >   1. 벡터공간의 조건 (4)에 의해 $z+v=\mathbf{0}$인 역벡터 $v \in \mathbb{V}$가 존재한다.
 >   2. 다음이 성립한다.
-> $$\begin{align*}x&\stackrel{(3)}{=}x+\mathbf{0}\stackrel{(4)}{=}x+(z+v)\stackrel{(2)}{=}(x+z)+v\\ &\stackrel{\text{(*)}}{=}(y+z)+v\stackrel{(2)}{=}y+(z+v)\stackrel{(4)}{=}y+\mathbf{0}\stackrel{(3)}{=}y \end{align*}$$
+> $$
+> \begin{align*}
+> x&\stackrel{(3)}{=}x+\mathbf{0}\stackrel{(4)}{=}x+(z+v)\stackrel{(2)}{=}(x+z)+v\\ &\stackrel{\text{(*)}}{=}(y+z)+v\stackrel{(2)}{=}y+(z+v)\stackrel{(4)}{=}y+\mathbf{0}\stackrel{(3)}{=}y 
+> \end{align*}
+> $$
 > 
 > **결론($\therefore$)**
 > - 따라서 $(\forall x, y, z \in \mathbb{V})\ x+z=y+z \to x=y\  \blacksquare$
