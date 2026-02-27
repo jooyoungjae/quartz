@@ -7,7 +7,7 @@ aliases:
 tags:
   - 선형대수학
 date: 2026-02-25 18:25
-updated: 2026-02-27 14:48
+updated: 2026-02-27 14:57
 draft: false
 ---
 
@@ -18,7 +18,9 @@ draft: false
 > [!NOTE] LA-0103 스칼라곱의 기본 성질 (Basic Properties of Scalar Multiplication)
 > 체 $\mathbf{F}$의 임의의 스칼라 $a$와 벡터공간 $\mathbb{V}$의 임의의 벡터 $x$에 대하여 다음 세 가지 성질이 성립한다. (단, $-x$는 벡터 $x$의 덧셈에 대한 역벡터)
 > 
-> $$\begin{align} &0x = \mathbf{0} \\ &a\mathbf{0} = \mathbf{0} \\ &(-a)x = -(ax) = a(-x) \end{align} $$
+> $$
+> \begin{align} &0x = \mathbf{0} \\ &a\mathbf{0} = \mathbf{0} \\ &(-a)x = -(ax) = a(-x) \end{align} 
+> $$
 
 ## 증명 (Proof)
 
@@ -30,7 +32,11 @@ draft: false
 > 
 > **전개**
 > 1. 
-> $$\begin{align*} 0x + 0x \stackrel{\text{(8)}}{=} (0+0)x \stackrel{\text{(*)}}{=} 0x \stackrel{\text{(3)}}{=} 0x + \mathbf{0} \end{align*}$$
+> $$
+> \begin{align*} 
+> 0x + 0x \stackrel{\text{(8)}}{=} (0+0)x \stackrel{\text{(*)}}{=} 0x \stackrel{\text{(3)}}{=} 0x + \mathbf{0} 
+> \end{align*}
+> $$
 > 2. [[LA-0102 벡터합의 소거법칙 (Cancellation Law for Vector Addition)#정리 (Theorem)|벡터합의 소거법칙]] 에 의하여 다음을 얻는다
 > 
 > **결론($\therefore$)**
@@ -44,7 +50,11 @@ draft: false
 > 
 > **전개**
 > 1. 
-> $$\begin{align*} a\mathbf{0} + a\mathbf{0} \stackrel{\text{(7)}}{=} a(\mathbf{0}+\mathbf{0}) \stackrel{\text{(3)}}{=} a\mathbf{0} \stackrel{\text{(3)}}{=} a\mathbf{0} + \mathbf{0} \end{align*}$$
+> $$
+> \begin{align*} 
+> a\mathbf{0} + a\mathbf{0} \stackrel{\text{(7)}}{=} a(\mathbf{0}+\mathbf{0}) \stackrel{\text{(3)}}{=} a\mathbf{0} \stackrel{\text{(3)}}{=} a\mathbf{0} + \mathbf{0} 
+> \end{align*}
+> $$
 > 2. [[LA-0102 벡터합의 소거법칙 (Cancellation Law for Vector Addition)#정리 (Theorem)|벡터합의 소거법칙]] 에 의하여 다음을 얻는다
 > 
 > **결론($\therefore$)**
@@ -62,10 +72,17 @@ draft: false
 > 
 > **전개**
 > 1. 
-> $$\begin{align*} ax + (-a)x \stackrel{\text{(8)}}{=} (a+(-a))x\stackrel{\text{(*)}}{=} 0x \stackrel{\text{(a)}}{=}\mathbf{0} \end{align*}$$
+> $$
+> \begin{align*} 
+> ax + (-a)x \stackrel{\text{(8)}}{=} (a+(-a))x\stackrel{\text{(*)}}{=} 0x \stackrel{\text{(a)}}{=}\mathbf{0} 
+> \end{align*}
+> $$
 > 2. 따라서 $(-a)x$는 $ax$의 역벡터이다.
 > 3. 
->    $$\begin{align*} ax + a(-x) \stackrel{\text{(7)}}{=} a(x+(-x))\stackrel{\text{(4)}}{=} a\mathbf{0} \stackrel{\text{(b)}}{=}\mathbf{0} \end{align*}$$
+> $$
+> \begin{align*} ax + a(-x) \stackrel{\text{(7)}}{=} a(x+(-x))\stackrel{\text{(4)}}{=} a\mathbf{0} \stackrel{\text{(b)}}{=}\mathbf{0} 
+> \end{align*}
+> $$
 > 4. 따라서 $a(-x)$는 $ax$의 역벡터이다.
 > 5. [[LA-0102 벡터합의 소거법칙 (Cancellation Law for Vector Addition)#따름정리 2|덧셈에 대한 역벡터의 유일성(LA-0102-C2)]]에 의하여 다음의 세 값이 모두 같다.
 > 
