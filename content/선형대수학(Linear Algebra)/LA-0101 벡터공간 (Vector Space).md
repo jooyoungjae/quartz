@@ -2,12 +2,12 @@
 title: LA-0101 벡터공간 (Vector Space)
 aliases:
   - LA-0101
-  - 벡터 공간
+  - 벡터공간
   - Vector Space
 tags:
   - 선형대수학
 date: 2026-02-25 16:43
-updated: 2026-02-27 14:06
+updated: 2026-03-03 18:22
 draft: false
 ---
 

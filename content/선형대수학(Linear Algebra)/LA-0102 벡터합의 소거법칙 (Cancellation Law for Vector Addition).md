@@ -7,7 +7,7 @@ aliases:
 tags:
   - 선형대수학
 date: 2026-02-25 17:24
-updated: 2026-02-25 19:20
+updated: 2026-02-27 16:31
 draft: false
 ---
 
@@ -50,7 +50,7 @@ draft: false
 
 ### 따름정리 1
 
-> [!NOTE] LA-0102-C1 벡터합의 소거법칙의 따름정리 1 (Corollary 1)
+> [!NOTE] LA-0102-C1 영벡터의 유일성 (Corollary 1)
 > **벡터공간의 조건 (3)을 만족하는 벡터 $\mathbf{0}$은 유일하다.**
 >
 
@@ -72,7 +72,7 @@ draft: false
 
 ### 따름정리 2
 
-> [!NOTE] LA-0102-C2 벡터합의 소거법칙의 따름정리 2 (Corollary 2)
+> [!NOTE] LA-0102-C2 덧셈에 대한 역벡터의 유일성 (Corollary 2)
 > **[[LA-0101 벡터공간 (Vector Space)|벡터공간]]의 조건 (4)를 만족하는 벡터 $y$는 유일하다.**
 
 ### 따름정리 2의 증명
