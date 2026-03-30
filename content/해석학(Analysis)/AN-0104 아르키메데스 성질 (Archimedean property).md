@@ -7,7 +7,7 @@ aliases:
 tags:
   - 해석학
 date: 2026-02-18 12:29
-updated: 2026-03-08 21:00
+updated: 2026-03-08 21:02
 draft: false
 ---
 
