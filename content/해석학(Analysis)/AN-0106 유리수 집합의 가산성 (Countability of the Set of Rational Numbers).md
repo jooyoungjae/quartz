@@ -7,7 +7,7 @@ aliases:
 tags:
   - 해석학
 date: 2026-04-03 21:47
-updated: 2026-04-03 23:23
+updated: 2026-04-03 23:26
 draft: false
 ---
 
@@ -40,7 +40,7 @@ draft: false
 > 5. 
 > $$
 > \begin{array}{c|c|cc|cccc|cccc|cc} \mathbb{N} & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & \cdots \\ \hline f & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow \\ \hline \mathbb{Q_{+}} & 0 & \frac{1}{1} & -\frac{1}{1} & \frac{1}{2} & -\frac{1}{2} & \frac{2}{1} & -\frac{2}{1} & \frac{1}{3}  & -\frac{1}{3} & \frac{3}{1} & -\frac{3}{1} & \frac{1}{4} &  \cdots  \\ \text{set} & A_{1} & A_{2} &  & A_{3} &  &  &  & A_{4} &  &  &  & A_{5} & \\
-\end{array}
+> \end{array}
 > $$
 > 6. 함수 $g:\mathbb{Z}\longrightarrow \mathbb Q$를 다음과 같이 정의 하면 일대일 대응이다.
 > $$
