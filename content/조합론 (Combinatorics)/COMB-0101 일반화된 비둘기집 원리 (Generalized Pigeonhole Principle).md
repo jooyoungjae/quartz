@@ -5,9 +5,9 @@ aliases:
   - 일반화된 비둘기집 원리
   - Generalized Pigeonhole Principle
 tags:
-  - COMB
+  - 조합론
 date: 2026-03-09 13:30
-updated: 2026-03-09 14:23
+updated: 2026-04-04 23:00
 draft: false
 ---
 

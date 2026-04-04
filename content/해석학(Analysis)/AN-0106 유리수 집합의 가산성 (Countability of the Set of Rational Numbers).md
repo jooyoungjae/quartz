@@ -6,8 +6,9 @@ aliases:
   - Countability of the Set of Rational Numbers
 tags:
   - 해석학
+  - 집합론
 date: 2026-04-03 21:47
-updated: 2026-04-03 23:26
+updated: 2026-04-04 22:58
 draft: false
 ---
 
@@ -17,7 +18,7 @@ draft: false
 
 > [!NOTE] AN-0106 유리수 집합의 가산성 (Countability of the Set of Rational Numbers)
 > **정리**
-> 유리수 집합 $\mathbb{Q}$와 $\mathbb{N}$의 기수가 같다.
+> 유리수 집합 $\mathbb{Q}$와 자연수 집합$\mathbb{N}$의 기수가 같다.
 > $$
 > \mathbb{Q} \sim \mathbb{N}
 > $$
@@ -39,7 +40,7 @@ draft: false
 > 4. 따라서 아래 표와 같이 함수 $f:\mathbb{N}\longrightarrow \mathbb Q_{+}$를 정의하면 일대일대응이다.
 > 5. 
 > $$
-> \begin{array}{c|c|cc|cccc|cccc|cc} \mathbb{N} & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & \cdots \\ \hline f & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow \\ \hline \mathbb{Q_{+}} & 0 & \frac{1}{1} & -\frac{1}{1} & \frac{1}{2} & -\frac{1}{2} & \frac{2}{1} & -\frac{2}{1} & \frac{1}{3}  & -\frac{1}{3} & \frac{3}{1} & -\frac{3}{1} & \frac{1}{4} &  \cdots  \\ \text{set} & A_{1} & A_{2} &  & A_{3} &  &  &  & A_{4} &  &  &  & A_{5} & \\
+> \begin{array}{c|c|cc|cc|cccc|cc|cc} \mathbb{N} & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & \cdots \\ \hline f & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow \\ \hline \mathbb{Q_{+}}  & \frac{1}{1} & \frac{1}{2} & \frac{2}{1} & \frac{1}{3} & \frac{3}{1} & \frac{1}{4} & \frac{2}{3}  & \frac{3}{2} & \frac{4}{1} & \frac{1}{5} & \frac{5}{1} & \frac{1}{6} & \cdots  \\ \text{set} & A_{2} & A_{3} &  & A_{4} &  & A_{5}  &  &  &  &  A_{6} &  & A_7 & \\
 > \end{array}
 > $$
 > 6. 함수 $g:\mathbb{Z}\longrightarrow \mathbb Q$를 다음과 같이 정의 하면 일대일 대응이다.
@@ -61,6 +62,7 @@ draft: false
 ## 코멘트
 
 - 유리수 집합은 가산 집합이다.
+- 임의의 $0$이 아닌 유리수 $\frac q p$에 대하여 $\left| \frac{q}{p} \right| \in A_{|p|+|q|}$가 성립한다. 각 $A_n$은 유한집합이므로, 양의 유리수 $\left| \frac{q}{p} \right|$는 함수 $f$에 의해 어떤 자연수 $k$와 유일하게 대응된다($f(k) = \left| \frac{q}{p} \right|$). 결과적으로 함수 $g$의 정의에 따라 $g(k) = \frac{q}{p}$ 또는 $g(-k) = \frac{q}{p}$가 성립하게 되어, 모든 유리수가 자연수(또는 정수)의 체계 안에서 빠짐없이 나열됨을 알 수 있다.
 
 ---
 

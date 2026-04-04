@@ -6,8 +6,9 @@ aliases:
   - The Countability of the Set of Integers
 tags:
   - 해석학
+  - 집합론
 date: 2026-04-03 21:47
-updated: 2026-04-03 22:47
+updated: 2026-04-04 23:03
 draft: false
 ---
 
@@ -17,7 +18,7 @@ draft: false
 
 > [!NOTE] AN-0105 정수 집합의 가산성 (The Countability of the Set of Integers)
 > **정리**
-> 정수집합 $\mathbb Z$와 $\mathbb N$의 기수가 같다.
+> 정수집합 $\mathbb Z$와 자연수 집합$\mathbb N$의 기수가 같다.
 > $$
 > \mathbb{Z} \sim \mathbb{N}
 > $$
@@ -30,9 +31,9 @@ draft: false
 > - Let 
 > $$
 > f(n)=
-> \begin{cases}
-> (n-1)/2 \quad &(n\text{은 홀수})\\ \\
-> -n/2 \quad &(n\text{은 짝수})
+> \begin{cases} 
+> -\frac{(n-1)}{2} \quad &(n\text{은 홀수})\\ \\
+> \frac n 2 \quad &(n\text{은 짝수})
 > \end{cases}
 > $$
 > 
